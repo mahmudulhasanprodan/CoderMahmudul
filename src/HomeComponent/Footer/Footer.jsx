@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="bg-FooterColor py-20">
         <div className="container">
           <div className="flex flex-col lg:flex-row gap-y-10 lg:gap-y-0 justify-between items-start">
-            <div className="flex items-center px-4 lg:px-0">
+            <div className="flex items-center px-4 xl:px-0">
               <span className="font-bold text-CommonColor text-3xl text-blue-400 -mt-2">
                 <FaQuoteLeft />
               </span>
@@ -20,7 +20,7 @@ const Footer = () => {
                 Coder <h3 className="text-BtnColor">Mahmudul</h3>
               </h2>
             </div>
-            <div className="w-96 hidden lg:block">
+            <div className="w-96 hidden xl:block">
               <p className="text-CommonColor font-FontFamily">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
                 vel ullam numquam nemo, deleniti repudiandae?
@@ -34,13 +34,13 @@ const Footer = () => {
                 mahmudulhasan8627@gmail.com
               </p>
             </div>
-            <div className="flex flex-col w-full items-center justify-center lg:max-w-fit">
+            <div className="flex flex-col w-full items-center justify-center lg:max-w-fit pr-4 xl:pr-0">
               <div>
                 <h2 className="font-FontFamily font-bold text-CommonColor text-2xl">
                   Stay Connected
                 </h2>
               </div>
-              <div className="flex item-center px-4 lg:px-0 gap-x-3 pt-2 text-CommonColor  cursor-pointer text-xl hover:text-CommonColor">
+              <div className="flex item-center px-4 xl:px-0 gap-x-3 pt-2 text-CommonColor  cursor-pointer text-xl hover:text-CommonColor">
                 <FaSquareFacebook className="hover:text-BtnColor" />
                 <FaSquareTwitter className="hover:text-BtnColor" />
                 <FaLinkedin className="hover:text-BtnColor" />

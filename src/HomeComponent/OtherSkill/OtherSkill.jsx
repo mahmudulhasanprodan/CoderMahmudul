@@ -19,7 +19,7 @@ const OtherSkill = () => {
 
               <div className="w-full flex pb-10 gap-x-5 flex-wrap gap-y-5 pt-20 items-center justify-center">
                 <div className="px-4 lg:px-0">
-                  <div className="w-[250px] lg:w-[560px] flex items-center justify-between">
+                  <div className="w-[250px] sm:w-[560px] flex items-center justify-between">
                     <h2 className="text-CommonColor font-FontFamily font-semibold">
                       Photoshop
                     </h2>
@@ -27,12 +27,12 @@ const OtherSkill = () => {
                       95%
                     </p>
                   </div>
-                  <div className="w-[325px] lg:w-[600px] h-[15px] bg-SkillColor rounded-full mt-2">
-                    <div className="w-[300px] lg:w-[560px] h-[15px] bg-BtnColor rounded-full"></div>
+                  <div className="w-[325px] sm:w-[600px] h-[15px] bg-SkillColor rounded-full mt-2">
+                    <div className="w-[300px] sm:w-[560px] h-[15px] bg-BtnColor rounded-full"></div>
                   </div>
                 </div>
                 <div>
-                  <div className="w-full lg:w-[545px] flex items-center justify-between">
+                  <div className="w-full sm:w-[545px] flex items-center justify-between">
                     <h2 className="text-CommonColor font-FontFamily font-semibold">
                       MS Excel
                     </h2>
@@ -40,12 +40,12 @@ const OtherSkill = () => {
                       90%
                     </p>
                   </div>
-                  <div className="w-[325px] lg:w-[600px] h-[15px] bg-SkillColor rounded-full mt-2">
-                    <div className="w-[280px] lg:w-[545px] h-[15px] bg-blue-400 rounded-full"></div>
+                  <div className="w-[325px] sm:w-[600px] h-[15px] bg-SkillColor rounded-full mt-2">
+                    <div className="w-[280px] sm:w-[545px] h-[15px] bg-blue-400 rounded-full"></div>
                   </div>
                 </div>
                 <div>
-                  <div className="w-full lg:w-[525px] flex items-center justify-between">
+                  <div className="w-full sm:w-[525px] flex items-center justify-between">
                     <h2 className="text-CommonColor font-FontFamily font-semibold">
                       MS Word
                     </h2>
@@ -53,12 +53,12 @@ const OtherSkill = () => {
                       80%
                     </p>
                   </div>
-                  <div className="w-[325px] lg:w-[600px] h-[15px] bg-SkillColor rounded-full mt-2">
-                    <div className="w-[260px] lg:w-[525px] h-[15px] bg-green-400 rounded-full"></div>
+                  <div className="w-[325px] sm:w-[600px] h-[15px] bg-SkillColor rounded-full mt-2">
+                    <div className="w-[260px] sm:w-[525px] h-[15px] bg-green-400 rounded-full"></div>
                   </div>
                 </div>
                 <div>
-                  <div className="w-full lg:w-[500px] flex items-center justify-between">
+                  <div className="w-full sm:w-[500px] flex items-center justify-between">
                     <h2 className="text-CommonColor font-FontFamily font-semibold">
                       Illustrator
                     </h2>
@@ -66,8 +66,8 @@ const OtherSkill = () => {
                       70%
                     </p>
                   </div>
-                  <div className="w-[325px] lg:w-[600px] h-[15px] bg-SkillColor rounded-full mt-2">
-                    <div className="w-[240px] lg:w-[500px] h-[15px] bg-sky-400 rounded-full"></div>
+                  <div className="w-[325px] sm:w-[600px] h-[15px] bg-SkillColor rounded-full mt-2">
+                    <div className="w-[240px] sm:w-[500px] h-[15px] bg-sky-400 rounded-full"></div>
                   </div>
                 </div>
               </div>

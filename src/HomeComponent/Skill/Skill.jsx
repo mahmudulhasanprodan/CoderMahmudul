@@ -23,7 +23,7 @@ const Skill = () => {
           </div>
 
           <div className="flex items-center pb-10 gap-x-5 flex-wrap gap-y-5 justify-center pt-16">
-            <div className="w-[360px] h-[225px] bg-SkillColor flex flex-col items-center justify-center gap-y-3 cursor-pointer hover:bg-blue-600">
+            <div className="w-full md:w-[360px] h-[225px] bg-SkillColor flex flex-col items-center justify-center gap-y-3 cursor-pointer hover:bg-blue-600">
               <span className="text-BtnColor text-7xl">
                 <FaHtml5 />
               </span>
@@ -32,7 +32,7 @@ const Skill = () => {
               </p>
               <h3 className="w-14 h-[2px] bg-BtnColor"></h3>
             </div>
-            <div className="w-[360px] h-[225px] bg-SkillColor flex flex-col items-center justify-center gap-y-3 cursor-pointer hover:bg-blue-600">
+            <div className="w-full md:w-[360px] h-[225px] bg-SkillColor flex flex-col items-center justify-center gap-y-3 cursor-pointer hover:bg-blue-600">
               <span className="text-BtnColor text-7xl">
                 <FaCss3Alt />
               </span>
@@ -41,7 +41,7 @@ const Skill = () => {
               </p>
               <h3 className="w-14 h-[2px] bg-BtnColor"></h3>
             </div>
-            <div className="w-[360px] h-[225px] bg-SkillColor flex flex-col items-center justify-center gap-y-3 cursor-pointer hover:bg-blue-600">
+            <div className="w-full md:w-[360px] h-[225px] bg-SkillColor flex flex-col items-center justify-center gap-y-3 cursor-pointer hover:bg-blue-600">
               <span className="text-BtnColor text-7xl">
                 <FaJava />
               </span>
@@ -50,7 +50,7 @@ const Skill = () => {
               </p>
               <h3 className="w-14 h-[2px] bg-BtnColor"></h3>
             </div>
-            <div className="w-[360px] h-[225px] bg-SkillColor flex flex-col items-center justify-center gap-y-3 cursor-pointer hover:bg-blue-600">
+            <div className="w-full md:w-[360px] h-[225px] bg-SkillColor flex flex-col items-center justify-center gap-y-3 cursor-pointer hover:bg-blue-600">
               <span className="text-BtnColor text-7xl">
                 <FaReact />
               </span>
@@ -59,7 +59,7 @@ const Skill = () => {
               </p>
               <h3 className="w-14 h-[2px] bg-BtnColor"></h3>
             </div>
-            <div className="w-[360px] h-[225px] bg-SkillColor flex flex-col items-center justify-center gap-y-3 cursor-pointer hover:bg-blue-600">
+            <div className="w-full md:w-[360px] h-[225px] bg-SkillColor flex flex-col items-center justify-center gap-y-3 cursor-pointer hover:bg-blue-600">
               <span className="text-BtnColor text-7xl">
                 <FaCss3 />
               </span>
@@ -68,7 +68,7 @@ const Skill = () => {
               </p>
               <h3 className="w-14 h-[2px] bg-BtnColor"></h3>
             </div>
-            <div className="w-[360px] h-[225px] bg-SkillColor flex flex-col items-center justify-center gap-y-3 cursor-pointer hover:bg-blue-600">
+            <div className="w-full md:w-[360px] h-[225px] bg-SkillColor flex flex-col items-center justify-center gap-y-3 cursor-pointer hover:bg-blue-600">
               <span className="text-BtnColor text-7xl">
                 <FaFireFlameCurved />
               </span>
