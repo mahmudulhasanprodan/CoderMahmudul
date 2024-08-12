@@ -18,7 +18,7 @@ const Banner = () => {
                 <h2 className="text-CommonColor font-extrabold text-4xl lg:text-6xl">
                   I'm
                   <span className="text-BtnColor">
-                    Mahmudul <br /> Hasan
+                     Mahmudul <br /> Hasan
                   </span>
                 </h2>
                 <p className="text-CommonColor font-FontFamily text-xl pt-6">
@@ -34,9 +34,9 @@ const Banner = () => {
                 />
               </div>
             </div>
-            <div className="1/2 hidden lg:block">
+            <div className="w-1/2 hidden lg:block">
               <picture>
-                <img src={BannerPicture} alt={BannerPicture} className="w-full h-[500px] shadow-xl"/>
+                <img src={BannerPicture} alt={BannerPicture} className="w-full h-[700px] shadow-xl"/>
               </picture>
             </div>
           </div>

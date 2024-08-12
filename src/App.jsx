@@ -3,6 +3,9 @@ import Home from './Pages/Home/Home'
 import RootElement from './RootElement/RootElement';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -23,9 +26,10 @@ const router= createBrowserRouter(
 const App = () => {
   return (
     <>
-      <RouterProvider router={router}/>
+      <ToastContainer />
+      <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
 export default App

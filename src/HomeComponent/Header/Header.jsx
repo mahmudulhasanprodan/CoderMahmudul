@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { FaQuoteLeft } from "react-icons/fa6";
 import { NavLink,Link } from "react-router-dom";
 import { FaFilePdf } from "react-icons/fa6";
@@ -8,12 +8,15 @@ import { RxCross1 } from "react-icons/rx";
 
 
 const Header = () => {
-
   const[Isshow,setIsshow] = useState(false);
+ 
+  
   // Handleshow function start here 
   const Handleshow = () => {
     setIsshow(!Isshow);
-  }
+  };
+
+
   return (
     <>
       <div className="bg-BgColor">
@@ -28,10 +31,10 @@ const Header = () => {
                   Coder <h3 className="text-BtnColor">Mahmudul</h3>
                 </h2>
               </div>
-              <div
+              <div             
                 className={`absolute lg:static flex-col lg:flex-row ${
                   Isshow
-                    ? "left-0 top-16 bg-gray-600 flex  w-full text-center"
+                    ? "left-0 top-14 bg-gray-600 flex  w-full text-center"
                     : "flex left-[-100%]  items-center gap-x-6"
                 }`}
               >
@@ -39,7 +42,7 @@ const Header = () => {
                   <NavLink
                     to={"/"}
                     className={
-                     ` text-CommonColor font-FontFamily focus:text-BtnColor ${Isshow && "hover:bg-BtnColor w-full py-1"}`
+                     ` text-CommonColor font-FontFamily lg:focus:text-BtnColor ${Isshow && "hover:bg-BtnColor  w-full py-1"}`
                     }
                   >
                     Home
@@ -49,7 +52,7 @@ const Header = () => {
                   <NavLink
                     to={"/"}
                     className={
-                      `text-CommonColor font-FontFamily focus:text-BtnColor  ${Isshow && "hover:bg-BtnColor w-full py-1"}`
+                      `text-CommonColor font-FontFamily lg:focus:text-BtnColor  ${Isshow && "hover:bg-BtnColor w-full py-1"}`
                     }
                   >
                     Services
@@ -59,7 +62,7 @@ const Header = () => {
                   <NavLink
                     to={"/about"}
                     className={
-                      `text-CommonColor font-FontFamily focus:text-BtnColor  ${Isshow && "hover:bg-BtnColor w-full py-1"}`
+                      `text-CommonColor font-FontFamily lg:focus:text-BtnColor ${Isshow && "hover:bg-BtnColor w-full py-1"}`
                     }
                   >
                     About
@@ -69,7 +72,7 @@ const Header = () => {
                   <NavLink
                     to={"/contact"}
                     className={
-                      `text-CommonColor font-FontFamily focus:text-BtnColor  ${Isshow && "hover:bg-BtnColor w-full py-1"}`
+                      `text-CommonColor font-FontFamily lg:focus:text-BtnColor  ${Isshow && "hover:bg-BtnColor w-full py-1"}`
                     }
                   >
                     Contact
@@ -101,8 +104,8 @@ const Header = () => {
               </div>
             </div>
             </div>
-            <div
-              className="cursor-pointer text-CommonColor lg:hidden"
+            <div            
+              className="cursor-pointer text-CommonColor lg:hidden"             
               onClick={Handleshow}
             >
               {Isshow === true ? <RxCross1 className="text-red-400 font-bold"/> : <FaBars />}

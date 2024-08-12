@@ -19,7 +19,7 @@ const OtherSkill = () => {
 
               <div className="w-full flex pb-10 gap-x-5 flex-wrap gap-y-5 pt-20 items-center justify-center">
                 <div className="px-4 lg:px-0">
-                  <div className="w-[250px] sm:w-[560px] flex items-center justify-between">
+                  <div className="w-full sm:w-[560px] flex items-center justify-between">
                     <h2 className="text-CommonColor font-FontFamily font-semibold">
                       Photoshop
                     </h2>
